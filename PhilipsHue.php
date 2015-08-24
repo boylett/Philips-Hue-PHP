@@ -50,6 +50,9 @@
 		
 		public function getBridge()
 		{
+			if($this->status and !empty($this->status))
+				return $this->status;
+			
 			if(!$this->bridge or !$this->token)
 				return (object) array();
 			
