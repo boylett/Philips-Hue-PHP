@@ -10,9 +10,22 @@ A simple PHP wrapper to allow control of your Philips Hue Bridge from anywhere!
 ## Usage
 You'll need two things to get your Bridge up and running:
 
-- Your Bridge ID, which can be retreived by logging in to [My hue](https://my.meethue.com/en-us/), going to [this page](https://www.meethue.com/en-us/user/bridge) and clicking **More bridge details**.
-- An authentication API Token which can be retrieved by following the **Authentication** instructions in [this StackOverflow post](http://stackoverflow.com/questions/19900657/how-to-connect-backend-service-with-philips-hue-bridge-remotely/20233705#20233705).
+### Bridge ID
+This can be retreived by logging in to [My hue](https://my.meethue.com/en-us/), going to [this page](https://www.meethue.com/en-us/user/bridge) and clicking **More bridge details**.
 
+### Authentication Token
+This can be retrieved by navigating to the following link (**be sure to fill in your bridge ID**):
+
+`http://www.meethue.com/en-US/api/gettoken?deviceid=<BRIDGE ID>&devicename=iPhone+5&appid=hueapp`
+
+Click '*Yes*', then **copy the link** from the '*Back to the App*' button (**do not click it**). This will give you something like the following:
+
+`phhueapp://sdk/login/3jExmQ1pxQk1FT5Dekx01YX9HUc1dkbG53VHpBOGVOcUpSUMHa085Wmc4T0=`
+
+Simply remove `phhueapp://sdk/login/` and you have your token!  
+The last character may be `%3D` - you can replace this with `=`
+
+### Initialization
 When you have everything you need, simply initialize the class like so:
 
     $BridgeID	= "0000000000000000";
