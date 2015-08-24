@@ -16,7 +16,7 @@ This can be retreived by logging in to [My hue](https://my.meethue.com/en-us/), 
 ### Authentication Token
 This can be retrieved by navigating to the following link (**be sure to fill in your bridge ID**):
 
-`http://www.meethue.com/en-US/api/gettoken?deviceid=<BRIDGE ID>&devicename=iPhone+5&appid=hueapp`
+`http://www.meethue.com/en-US/api/gettoken?deviceid=` **&lt;BRIDGE ID&gt;** `&devicename=iPhone+5&appid=hueapp`
 
 Click '*Yes*', then **copy the link** from the '*Back to the App*' button (**do not click it**). This will give you something like the following:
 
