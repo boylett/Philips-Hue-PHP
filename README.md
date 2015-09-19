@@ -32,7 +32,7 @@ When you have everything you need, simply initialize the class like so:
 
     $Bridge		= new PhilipsHue($BridgeID, $APIToken);
 
-Retrieving the status of your bridge (including a list of all of your connected bulbs) is just as simple:
+Retrieving the status of your bridge, including a list of all of your connected bulbs, is just as simple (please be sparing with this function as it is quite heavy on the Hue Bridge's CPU):
 
     $Status = $Bridge->getBridge();
 
