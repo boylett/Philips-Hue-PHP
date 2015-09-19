@@ -22,8 +22,7 @@ Click '*Yes*', then **copy the link** from the '*Back to the App*' button (**do 
 
 `phhueapp://sdk/login/3jExmQ1pxQk1FT5Dekx01YX9HUc1dkbG53VHpBOGVOcUpSUMHa085Wmc4T0=`
 
-Simply remove `phhueapp://sdk/login/` and you have your token!  
-The last character may be `%3D` - you can replace this with `=`
+Simply remove `phhueapp://sdk/login/` and you have your token!
 
 ### Initialization
 When you have everything you need, simply initialize the class like so:
