@@ -10,7 +10,7 @@
 		public function Init($BridgeID, $APIToken)
 		{
 			$this->bridge = $BridgeID;
-			$this->token = $APIToken;
+			$this->token = urldecode($APIToken);
 		}
 		
 		public function sendCommand($URL, $Command = "")
