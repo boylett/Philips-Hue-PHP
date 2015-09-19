@@ -1,4 +1,4 @@
-# Philips Hue PHP API
+# Philips Hue Remote PHP API
 A simple PHP wrapper to allow control of your Philips Hue Bridge from anywhere!
 
 ## Installation
