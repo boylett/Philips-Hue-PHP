@@ -47,7 +47,7 @@ For example, the following command will set bulb number 3's brightness to 100%:
 
     $Bridge->sendCommand('lights/3/status', array("bri" => 255));
 
-Below is a list of available payload arguments for the `status` command, which is realistically the only command type you will need to access.
+Below is a list of available payload arguments for the `status` command
 
 | Parameter | Acceptable Values | Effect |
 | --------- | ----------------- | ------ |
