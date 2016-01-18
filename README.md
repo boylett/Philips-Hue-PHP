@@ -1,4 +1,4 @@
-#WARNING: Does not work with the new HomeKit bridge!
+#WARNING: Does not work with new HomeKit bridge!
 
 # Philips Hue Remote PHP API
 A simple PHP wrapper to allow control of your Philips Hue Bridge from anywhere!
